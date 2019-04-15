@@ -132,9 +132,9 @@ def correlationTemperatureHardness(df,spark):
 
 ### TODO Please provide your Cloudant credentials here by creating a connection to Cloudant and insert the code
 credentials_1 = dict()
-credentials_1['username'] = '9f7400f1-a47d-4030-b242-da4afd61f53a-bluemix'
-credentials_1['password'] = 'c5086d984b9bcac6d7da1f742881db545a7e9889a50d83ab72783e962e5b8231'
-credentials_1['custom_url'] = 'https://9f7400f1-a47d-4030-b242-da4afd61f53a-bluemix:c5086d984b9bcac6d7da1f742881db545a7e9889a50d83ab72783e962e5b8231@9f7400f1-a47d-4030-b242-da4afd61f53a-bluemix.cloudant.com'
+credentials_1['username'] = 
+credentials_1['password'] = 
+credentials_1['custom_url'] = 
 ### Please have a look at the latest video "Connect to Cloudant/CouchDB from ApacheSpark in Watson Studio" on https://www.youtube.com/c/RomeoKienzler
 database = "washing" #as long as you didn't change this in the NodeRED flow the database name stays the same
 
