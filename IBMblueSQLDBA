@@ -1,0 +1,28 @@
+
+
+
+
+{
+  "hostname": "dashdb-txn-sbox-yp-dal09-04.services.dal.bluemix.net",
+  "password": "ng33^v9s9chjx2kf",
+  "https_url": "https://dashdb-txn-sbox-yp-dal09-04.services.dal.bluemix.net",
+  "port": 50000,
+  "ssldsn": "DATABASE=BLUDB;HOSTNAME=dashdb-txn-sbox-yp-dal09-04.services.dal.bluemix.net;PORT=50001;PROTOCOL=TCPIP;UID=pzd11453;PWD=ng33^v9s9chjx2kf;Security=SSL;",
+  "host": "dashdb-txn-sbox-yp-dal09-04.services.dal.bluemix.net",
+  "jdbcurl": "jdbc:db2://dashdb-txn-sbox-yp-dal09-04.services.dal.bluemix.net:50000/BLUDB",
+  "uri": "db2://pzd11453:ng33%5Ev9s9chjx2kf@dashdb-txn-sbox-yp-dal09-04.services.dal.bluemix.net:50000/BLUDB",
+  "db": "BLUDB",
+  "dsn": "DATABASE=BLUDB;HOSTNAME=dashdb-txn-sbox-yp-dal09-04.services.dal.bluemix.net;PORT=50000;PROTOCOL=TCPIP;UID=pzd11453;PWD=ng33^v9s9chjx2kf;",
+  "username": "pzd11453",
+  "ssljdbcurl": "jdbc:db2://dashdb-txn-sbox-yp-dal09-04.services.dal.bluemix.net:50001/BLUDB:sslConnection=true;"
+}
+
+dsn_driver = "{IBM DB2 ODBC DRIVER}"
+dsn_database = "BLUDB"            
+dsn_hostname = "dashdb-txn-sbox-yp-dal09-04.services.dal.bluemix.net"
+dsn_port = "50000"                
+dsn_protocol = "TCPIP"           
+dsn_uid = "pzd11453"        
+dsn_pwd = "ng33^v9s9chjx2kf"      
+
+%sql ibm_db_sa://pzd11453:ng33^v9s9chjx2kf@dashdb-txn-sbox-yp-dal09-04.services.dal.bluemix.net:50000/BLUDB
